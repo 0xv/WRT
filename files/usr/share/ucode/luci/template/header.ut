@@ -210,7 +210,7 @@ function showAlert({ title, html, icon = 'info', confirmText = 'OK', denyText = 
 
 // ====== Update & Information Check ======
 async function checkForUpdates() {
-    const currentVersion = "openwrt_24.10.0-05022025";
+    const currentVersion = "immortalwrt_24.10.0-rc4-06022025";
     const today = new Date().toISOString().slice(0, 10);
     const lastShownUpdate = localStorage.getItem('mdl_update');
 
